@@ -16,6 +16,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npx tsc --noEmit
+      - run: npm audit
   gitleaks:
     name: gitleaks
     runs-on: ubuntu-latest
@@ -41,4 +42,4 @@ jobs:
       - name: Require every prerequisite to succeed
         env:
           RESULTS: ${{ toJSON(needs) }}
-        run: python3 -c 'import json,os; results=json.loads(os.environ["RESULTS"]); assert results and all(v["result"]=="success" for v in results.values()), results'
+        run: python3 -c 'import json,os; results=json.loads(os.environ["RESULTS"]); assert set(results)=={"build","gitleaks"} and all(v["result"]=="success" for v in results.values()), results'

@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "check:built": "node scripts/check-built.mjs",
-    "test": "npm run build && npm run check:built"
+    "test": "npm run build && npm run check:built && node scripts/check-ci-gate.mjs"
   },
   "dependencies": {
     "react": "^19.2.3",

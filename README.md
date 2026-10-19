@@ -1,6 +1,6 @@
 # orion-results product site
 
-MIT source for the orion-results Works page. Prepared privately; no remote repository or deployment is configured.
+MIT source for the orion-results Works page. The source repository is public; production deployment and guide publication have their own release checks.
 
 The page follows the existing navy/copper Works style. It renders the same React component into initial HTML at build time and hydrates that component in the browser. Product data remains in constants.ts; the library and guide own operational documentation.
 

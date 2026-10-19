@@ -1,0 +1,36 @@
+{
+  "scope": "Author-observed local consumer proof; no production availability or independent acceptance implied",
+  "reviewed": "2026-10-18",
+  "source_inputs": {
+    "App.tsx": "fad23a9659a3b07052dfb54abaae1049f8572a1eee8332d938ee870a1e1be6cb",
+    "index.css": "d63642931be24125ecb39cf3dbeae47d519649963418a3e4dac852b21ca55d08",
+    "index.tsx": "2c96fb4383392f3e5a3c10241189284abfd96f4bb893225abfddbe29570550fe",
+    "vite-plugin-bodybake.ts": "5c804f997f2dbda8bbd4eb39d3c518b37c3686cc097865b4e44a0a5f36bf4bf3"
+  },
+  "built_html_sha256": "a064ce6f637f6478e1c3b77c9115a5201b516581c3bee663df4263b864addc8f",
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "horizontal_page_overflow": false,
+  "keyboard_focus_outline": "2px",
+  "reduced_motion": {
+    "arrival_animation": "0s",
+    "scroll_behavior": "auto"
+  },
+  "copy": {
+    "native_keyboard_success": true,
+    "synthetic_rejection_feedback": true
+  },
+  "no_javascript": {
+    "method": "Owned Chromium target with Emulation.setScriptExecutionDisabled(true), followed by cache-bypassing reload",
+    "react_root_mounted": false,
+    "heading_visible": true,
+    "install_command_readable": true
+  },
+  "hub_integration": "The separate hub change owns redirects, prefix-stripped rewrites, guide and sitemap; its PR is linked in the site runbook. Local rehearsal is supporting evidence, not Vercel production proof.",
+  "screenshots": {
+    "review-desktop.png": "b745fb44ebf14132a0ce1e24a493a9519dfb69c38e285795c0250d38ec66b019",
+    "review-mobile.png": "376a90ecab5be4b3c55e1cc37b3a94f419f70041291e099f7141d516457218d7",
+    "review-nojs-native.png": "e546f05c3607d2aa147678af06e05b12fcf6e5fd2ac8c10d7f27e800d86a8499"
+  },
+  "runtime_adoption": false
+}

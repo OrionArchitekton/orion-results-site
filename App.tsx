@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PRODUCT_DATA as p } from './constants';
 
 function Install() {
@@ -13,7 +13,7 @@ function Install() {
     <p role="status" aria-live="polite" className="text-xs text-neutral-600 mt-2 min-h-5">{status}</p>
   </div>;
 }
-const Title = ({ number, children }: {number: string; children: React.ReactNode}) => <h2 className="font-mono text-xs uppercase tracking-widest text-neutral-600 border-b border-neutral-200 pb-3 mb-5"><span className="text-copper-dark" aria-hidden="true">{number} // </span>{children}</h2>;
+const Title = ({ number, children }: {number: string; children: string}) => <h2 className="font-mono text-xs uppercase tracking-widest text-neutral-600 border-b border-neutral-200 pb-3 mb-5"><span className="text-copper-dark" aria-hidden="true">{number} // </span>{children}</h2>;
 export default function App() {
   return <>
     <a className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 bg-white p-2" href="#main-content">Skip to main content</a>
@@ -54,7 +54,7 @@ export default function App() {
         <dl className="space-y-6 text-sm leading-6">
           <div><dt className="font-medium">The complete snapshot string is measured.</dt><dd className="text-neutral-700">Every UTF-8 byte counts, including references and omission information. Replace your selected view each time. Previous strings, input memory, wrappers, tokens and a model's whole context are outside this limit.</dd></div>
           <div><dt className="font-medium">Uncertainty stays visible.</dt><dd className="text-neutral-700">A failed commit or unconfirmed rollback/read-back leaves an unknown outcome and faults the handle. Keep the expected reference and original text, then close, inspect and recover deliberately.</dd></div>
-          <div><dt className="font-medium">Local storage stays explicit.</dt><dd className="text-neutral-700">One cooperative writer per private session. No pip runtime dependencies, service, automatic harness hook, migration or deletion API. References carry identity, not authority, redaction or encryption.</dd></div>
+          <div><dt className="font-medium">Local storage stays explicit.</dt><dd className="text-neutral-700">One cooperative writer per private session. Call the APIs serially within each process. Overlapping calls refuse with storage_busy. No pip runtime dependencies, service, automatic harness hook, migration or deletion API. References carry identity, not authority, redaction or encryption.</dd></div>
         </dl>
         <p className="border-t border-neutral-200 mt-7 pt-5 text-xs text-neutral-600 leading-6">Demonstrated on CPython 3.11.9, SQLite 3.45.1, Linux x86_64 under WSL2 and local ext4. Other platforms and hardware power loss are unverified. Native agent adapters and starter integration are separate work.</p>
       </section>

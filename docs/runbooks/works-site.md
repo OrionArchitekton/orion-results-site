@@ -7,12 +7,14 @@ references: [../../vite.config.ts, ../../App.tsx, ../../constants.ts, ../../verc
 
 # Result-capture Works page
 
-Current state: local-only release preparation. Build/typecheck, initial HTML/asset checks and local desktop/mobile browser inspection establish only the selected local build. Source/package/guide/site are separate acceptance paths.
+Current state: public source under protected review; the new external project is prepared without a production deployment. Build/typecheck, initial HTML/asset checks and local desktop/mobile browser inspection establish only the selected local build. Source/package/guide/site are separate acceptance paths.
 
-After explicit release approval, create only the named new orion-results-site project. Never copy a .vercel directory or project ID from another source. Verify project identity and public unauthenticated origin before the hub route is enabled. No DNS or subdomain is required.
+The approved orion-results-site project has been prepared. Use only that named project after the final source/artifact review gates. Never copy a .vercel directory or project ID from another source. Verify project identity and public unauthenticated origin before the hub route is enabled. No DNS or subdomain is required.
 
 The hub needs a no-slash redirect, explicit bare /works/orion-results/ rewrite and prefix-stripped /works/orion-results/:path* rewrite to the new external origin. Keep these before the SPA catch-all. The origin serves dist at root; /assets cache headers are origin-relative. The hub owns robots/sitemap. Never add a physical hub ROUTE_META page for this microsite.
 
 Publish and verify the source package before the guide. Deploy the new site origin for preflight before enabling the hub proxy; accept its guide link only once the combined Works/guide hub release is verified. The staged source URLs/guide URL are not live acceptance. Production validation requires exact deployment/source identity, a public origin without SSO, correct title/self-canonical, JavaScript/CSS/image content types, actual Works navigation and guide content/canonical. Retain captures/receipts for each.
 
 No timer or monitoring service is added. Rollback uses normal protected revert PRs for the hub entry/rewrites/sitemap and a same-project known-good redeployment. Do not alter the core library, original helper or other Works routes. Stop if the planned origin/project identity differs.
+
+The owning hub change is https://github.com/OrionArchitekton/danmercede.com/pull/214 . It carries the redirect, two prefix-stripped rewrites, guide and sitemap together; do not duplicate hub routing in this site repo. The author-observed local desktop/mobile, script-disabled, keyboard/copy and reduced-motion receipt is `docs/releases/site-review-0.1.0.json`. These local checks do not establish production availability.
