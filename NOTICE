@@ -1,0 +1,8 @@
+orion-results-site
+Copyright (c) 2026 Dan Mercede
+
+This project contains newly authored AI-assisted page content and rendering code.
+Its build setup and brand favicon assets follow the owner-controlled orion-handoff
+Works site. Both projects are licensed under MIT. The dependency lock identifies
+third-party packages and their separate licenses; they are not relicensed here.
+The synthetic walkthrough describes the separately licensed orion-results core.
