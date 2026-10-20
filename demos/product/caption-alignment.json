@@ -1,0 +1,75 @@
+{
+  "source": "Existing per-shot word alignment from this exact recording; original narration retained. Numeric spelling uses the same observed spoken interval.",
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.14,
+      "text": "Orion Results captures complete text in an explicitly"
+    },
+    {
+      "start": 3.14,
+      "end": 4.88,
+      "text": "selected private local session."
+    },
+    {
+      "start": 5.66,
+      "end": 8.4,
+      "text": "This released example stores synthetic text and verifies"
+    },
+    {
+      "start": 8.4,
+      "end": 9.88,
+      "text": "exact read back by reference."
+    },
+    {
+      "start": 10.4,
+      "end": 12.82,
+      "text": "The selected snapshot is one hundred seventy one"
+    },
+    {
+      "start": 12.82,
+      "end": 14.66,
+      "text": "bytes, under the example budget."
+    },
+    {
+      "start": 15.2,
+      "end": 17.22,
+      "text": "One result is omitted from this view and"
+    },
+    {
+      "start": 17.22,
+      "end": 21.02,
+      "text": "remains recoverable. This limit measures the snapshot string,"
+    },
+    {
+      "start": 21.240000000000002,
+      "end": 22.48,
+      "text": "not a whole model context."
+    },
+    {
+      "start": 22.866667,
+      "end": 26.446666999999998,
+      "text": "The same example verifies backup recovery, quota refusal,"
+    },
+    {
+      "start": 27.066667,
+      "end": 28.646667,
+      "text": "and cleanup of its own scratch data."
+    },
+    {
+      "start": 29.706667,
+      "end": 32.146667,
+      "text": "References identify results; they do not grant access"
+    },
+    {
+      "start": 32.146667,
+      "end": 34.886667,
+      "text": "or encrypt them. Follow the source and guide"
+    },
+    {
+      "start": 34.886667,
+      "end": 36.186667,
+      "text": "for the supported local setup."
+    }
+  ]
+}

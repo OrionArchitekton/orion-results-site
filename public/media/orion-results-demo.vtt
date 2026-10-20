@@ -1,13 +1,65 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:09.880
-Orion Results captures complete text in an explicitly selected private local session. This released example stores synthetic text and verifies exact read back by reference.
+00:00:00.000 --> 00:00:03.140
+Orion Results captures complete text
+in an explicitly
 
 2
-00:00:10.400 --> 00:00:22.480
-The selected snapshot is one hundred seventy one bytes, under the example budget. One result is omitted from this view and remains recoverable. This limit measures the snapshot string, not a whole model context.
+00:00:03.140 --> 00:00:04.880
+selected private local session.
 
 3
-00:00:22.867 --> 00:00:36.187
-The same example verifies backup recovery, quota refusal, and cleanup of its own scratch data. References identify results; they do not grant access or encrypt them. Follow the source and guide for the supported local setup.
+00:00:05.660 --> 00:00:08.400
+This released example stores
+synthetic text and verifies
+
+4
+00:00:08.400 --> 00:00:09.880
+exact read back by reference.
+
+5
+00:00:10.400 --> 00:00:12.820
+The selected snapshot is one hundred
+seventy one
+
+6
+00:00:12.820 --> 00:00:14.660
+bytes, under the example budget.
+
+7
+00:00:15.200 --> 00:00:17.220
+One result is omitted from this view
+and
+
+8
+00:00:17.220 --> 00:00:21.020
+remains recoverable. This limit
+measures the snapshot string,
+
+9
+00:00:21.240 --> 00:00:22.480
+not a whole model context.
+
+10
+00:00:22.867 --> 00:00:26.447
+The same example verifies backup
+recovery, quota refusal,
+
+11
+00:00:27.067 --> 00:00:28.647
+and cleanup of its own scratch data.
+
+12
+00:00:29.707 --> 00:00:32.147
+References identify results; they do
+not grant access
+
+13
+00:00:32.147 --> 00:00:34.887
+or encrypt them. Follow the source
+and guide
+
+14
+00:00:34.887 --> 00:00:36.187
+for the supported local setup.
