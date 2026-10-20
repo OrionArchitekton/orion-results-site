@@ -58,8 +58,14 @@ export default function App() {
           <div><dt className="font-medium">Uncertainty stays visible.</dt><dd className="text-neutral-700">A failed commit or unconfirmed rollback/read-back leaves an unknown outcome and faults the handle. Keep the expected reference and original text, then close, inspect and recover deliberately.</dd></div>
           <div><dt className="font-medium">Local storage stays explicit.</dt><dd className="text-neutral-700">One cooperative writer per private session. Call the APIs serially within each process. Overlapping calls refuse with storage_busy. No pip runtime dependencies, service, automatic harness hook, migration or deletion API. References carry identity, not authority, redaction or encryption.</dd></div>
         </dl>
-        <p className="border-t border-neutral-200 mt-7 pt-5 text-xs text-neutral-600 leading-6">Demonstrated on CPython 3.11.9, SQLite 3.45.1, Linux x86_64 under WSL2 and local ext4. Other platforms and hardware power loss are unverified. Native agent adapters and starter integration are separate work.</p>
+        <p className="border-t border-neutral-200 mt-7 pt-5 text-xs text-neutral-600 leading-6">Demonstrated on CPython 3.11.9, SQLite 3.45.1, Linux x86_64 under WSL2 and local ext4. Other platforms and hardware power loss are unverified. Native agent adapters remain separate work; the optional Starter profile below composes the released local tools.</p>
       </section>
+        <aside aria-labelledby="development-evidence-heading" className="mt-12 mb-12 rounded-md border border-neutral-200 p-6">
+          <h2 id="development-evidence-heading" className="font-mono text-sm font-semibold text-neutral-900 mb-3">Carry development evidence between workers</h2>
+          <p className="text-sm text-neutral-700 leading-7">Try the optional Orion Starter development evidence preview: retain an exact worktree observation, hand over a compact reference, then recover and independently observe before completing a local demonstration.</p>
+          <a className="inline-block mt-3 text-sm underline underline-offset-4 hover:text-copper-deep" href="https://www.danmercede.com/guides/agent-development-evidence-handoff">Read the development evidence walkthrough</a>
+          <p className="mt-3 text-xs text-neutral-600 leading-6">Completion demonstrates a deliberately created overlap. It makes no merge-safety claim.</p>
+        </aside>
       <footer className="border-t border-neutral-200 pt-7 text-sm"><div className="flex flex-wrap gap-6"><a className="underline underline-offset-4 hover:text-copper-deep" href={p.guide}>Follow the guide</a><a className="underline underline-offset-4 hover:text-copper-deep" href={p.github}>Source and recovery runbook</a></div><p className="text-xs text-neutral-600 mt-6">MIT licensed. Built by Dan Mercede.</p></footer>
     </main>
   </>;
