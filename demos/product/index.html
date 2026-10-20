@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>orion-results recorded demo</title><style>*{box-sizing:border-box}body{margin:0;width:1920px;height:1080px;background:#0b1721;color:#f5f5f0;font-family:Arial,sans-serif;padding:70px 100px}header{display:flex;justify-content:space-between;font:18px monospace;color:#b6c1c5;letter-spacing:2px}header strong,.eyebrow{color:#e8a96a}section{display:none;margin-top:58px}.eyebrow{font:18px monospace;letter-spacing:3px}h1{font-size:62px;margin:20px 0 16px;letter-spacing:-1.5px}.intro{font-size:27px;color:#c6d1d6;margin:0 0 24px}pre{background:#14242f;border:1px solid #344854;border-radius:12px;padding:24px 30px;font:29px/1.3 "DejaVu Sans Mono",monospace;white-space:pre-wrap;color:#a5e1cb;max-height:550px;overflow:hidden}footer{position:absolute;left:100px;right:100px;bottom:125px;font:18px/1.6 monospace;color:#adbdc5;border-top:1px solid #344854;padding-top:16px}</style><header><strong>DM / DAN MERCEDE</strong><span>OPEN SOURCE / v0.1.0 / MIT</span></header><section id="capture"><p class="eyebrow">01 / ORION-RESULTS</p><h1>Keep the complete result.</h1><p class="intro">Released example, synthetic text and a disposable session.</p><pre>$ python examples/capture_results.py
+
+input_utf8_bytes: 115000
+unique: 2
+exact_recovery: true</pre></section><section id="snapshot"><p class="eyebrow">02 / ORION-RESULTS</p><h1>Pass a bounded view.</h1><p class="intro">Bytes in the complete snapshot string, not model tokens.</p><pre>snapshot_utf8_bytes: 171
+budget_bytes: 256
+unique: 2
+omitted: 1
+
+The omitted result remains recoverable.</pre></section><section id="recover"><p class="eyebrow">03 / ORION-RESULTS</p><h1>Check recovery and refusal.</h1><p class="intro">Observed assertions in one installed-wheel example.</p><pre>exact_recovery: true
+backup_recovery: true
+quota_refused: true
+cleanup_verified: true
+
+exit 0</pre></section><footer>RECORDED LOCAL EVIDENCE / SYNTHETIC INPUT / EDITED REPLAY<br>danmercede.com/works/orion-results/</footer><script>const scene=new URLSearchParams(location.search).get("scene")||"capture";(document.getElementById(scene)||document.querySelector("section")).style.display="block";</script></html>

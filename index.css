@@ -8,6 +8,7 @@
 @source "./index.html";
 @source "./index.tsx";
 @source "./App.tsx";
+@source "./ProductDemo.tsx";
 @source "./constants.ts";
 @source "./vite-plugin-bodybake.ts";
 
@@ -102,3 +103,5 @@ header { animation: arrive 0.45s ease-out both; }
 a { transition: color .15s ease, border-color .15s ease; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.product-demo-player { width: 100%; height: auto; aspect-ratio: 16 / 9; }

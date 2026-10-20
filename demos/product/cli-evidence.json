@@ -1,0 +1,18 @@
+{
+  "scope": "Recorded synthetic local demonstration; no API/model call or production mutation",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "examples/capture_results.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"input_utf8_bytes\": 115000, \"snapshot_utf8_bytes\": 171, \"unique\": 2, \"omitted\": 1, \"exact_recovery\": true, \"backup_recovery\": true, \"quota_refused\": true, \"cleanup_verified\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "environment": {
+    "python": "3.11.9",
+    "platform": "WSL2 Linux x86_64, local ext4"
+  }
+}

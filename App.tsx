@@ -1,3 +1,4 @@
+import { ProductDemo } from './ProductDemo';
 import { useState } from 'react';
 import { PRODUCT_DATA as p } from './constants';
 
@@ -25,6 +26,7 @@ export default function App() {
         <p className="text-lg md:text-xl text-neutral-700 leading-relaxed max-w-xl">Store complete text privately. Pass a byte-bounded snapshot. Recover the exact result when you need it.</p>
         <div className="flex flex-wrap gap-5 items-center mt-7"><a href="#quickstart" className="bg-copper-dark hover:bg-copper-deep text-white px-5 py-3 rounded text-sm font-medium">Start with a local capture</a><a href={p.github} className="text-sm underline underline-offset-4 hover:text-copper-deep">View on GitHub</a></div>
       </header>
+      <ProductDemo />
       <section aria-labelledby="workflow-title" className="my-12 md:my-16">
         <h2 id="workflow-title" className="sr-only">Capture, select, recover</h2>
         <ol className="grid grid-cols-3 gap-3 border-y border-neutral-200 py-5 text-xs md:text-sm"><li><span className="font-mono text-copper-deep">01 / </span>Capture full text</li><li><span className="font-mono text-copper-deep">02 / </span>Select one view</li><li><span className="font-mono text-copper-deep">03 / </span>Read by reference</li></ol>
