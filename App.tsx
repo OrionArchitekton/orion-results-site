@@ -66,7 +66,7 @@ export default function App() {
           <a className="inline-block mt-3 text-sm underline underline-offset-4 hover:text-copper-deep" href="https://www.danmercede.com/guides/agent-development-evidence-handoff">Read the development evidence walkthrough</a>
           <p className="mt-3 text-xs text-neutral-600 leading-6">Completion demonstrates a deliberately created overlap. It makes no merge-safety claim.</p>
         </aside>
-      <footer className="border-t border-neutral-200 pt-7 text-sm"><div className="flex flex-wrap gap-6"><a className="underline underline-offset-4 hover:text-copper-deep" href={p.guide}>Follow the guide</a><a className="underline underline-offset-4 hover:text-copper-deep" href={p.github}>Source and recovery runbook</a></div><p className="text-xs text-neutral-600 mt-6">MIT licensed. Built by Dan Mercede.</p></footer>
+      <footer className="border-t border-neutral-200 pt-7 text-sm"><div className="flex flex-wrap gap-6"><a className="underline underline-offset-4 hover:text-copper-deep" href={p.guide}>Follow the guide</a><a className="underline underline-offset-4 hover:text-copper-deep" href={p.github}>Source and recovery runbook</a></div><p className="text-xs text-neutral-600 mt-6">MIT licensed. Built by Dan Mercede.</p><p className="text-xs text-neutral-600 mt-2">Part of <a className="underline underline-offset-4 hover:text-copper-deep" href="https://www.cosmocrat.ai/tools#orion-results">Cosmocrat OS</a>. Preview.</p></footer>
     </main>
   </>;
 }
